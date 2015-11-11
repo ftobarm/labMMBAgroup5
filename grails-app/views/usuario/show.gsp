@@ -23,15 +23,15 @@
 			</g:if>
 			<ol class="property-list usuario">
 			
-				<g:if test="${usuarioInstance?.username}">
+				<g:if test="${usuarioInstance?.email}">
 				<li class="fieldcontain">
-					<span id="username-label" class="property-label"><g:message code="usuario.username.label" default="Username" /></span>
+					<span id="email-label" class="property-label"><g:message code="usuario.email.label" default="Email" /></span>
 					
-						<span class="property-value" aria-labelledby="username-label"><g:fieldValue bean="${usuarioInstance}" field="username"/></span>
+						<span class="property-value" aria-labelledby="email-label"><g:fieldValue bean="${usuarioInstance}" field="email"/></span>
 					
 				</li>
 				</g:if>
-			
+			<!--
 				<g:if test="${usuarioInstance?.password}">
 				<li class="fieldcontain">
 					<span id="password-label" class="property-label"><g:message code="usuario.password.label" default="Password" /></span>
@@ -48,14 +48,14 @@
 						<span class="property-value" aria-labelledby="accountExpired-label"><g:formatBoolean boolean="${usuarioInstance?.accountExpired}" /></span>
 					
 				</li>
-				</g:if>
-			
+					</g:if>
+
 				<g:if test="${usuarioInstance?.accountLocked}">
-				<li class="fieldcontain">
-					<span id="accountLocked-label" class="property-label"><g:message code="usuario.accountLocked.label" default="Account Locked" /></span>
-					
+					<li class="fieldcontain">
+                        <span id="accountLocked-label" class="property-label"><g:message code="usuario.accountLocked.label" default="Account Locked" /></span>
+
 						<span class="property-value" aria-labelledby="accountLocked-label"><g:formatBoolean boolean="${usuarioInstance?.accountLocked}" /></span>
-					
+
 				</li>
 				</g:if>
 			
@@ -76,7 +76,7 @@
 					
 				</li>
 				</g:if>
-			
+			-->
 			</ol>
 			<g:form url="[resource:usuarioInstance, action:'delete']" method="DELETE">
 				<fieldset class="buttons">

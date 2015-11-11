@@ -6,32 +6,32 @@ class Usuario implements Serializable {
 
 	transient springSecurityService
 
-	String username
+	String email
 	String password
 	boolean enabled = true
 	boolean accountExpired
 	boolean accountLocked
 	boolean passwordExpired
 
-	Usuario(String username, String password) {
+	Usuario(String email, String password) {
 		this()
-		this.username = username
+		this.email = email
 		this.password = password
 	}
 
 	@Override
 	int hashCode() {
-		username?.hashCode() ?: 0
+		email?.hashCode() ?: 0
 	}
 
 	@Override
 	boolean equals(other) {
-		is(other) || (other instanceof Usuario && other.username == username)
+		is(other) || (other instanceof Usuario && other.email == email)
 	}
 
 	@Override
 	String toString() {
-		username
+		email
 	}
 
 	Set<Rol> getAuthorities() {
@@ -55,7 +55,7 @@ class Usuario implements Serializable {
 	static transients = ['springSecurityService']
 
 	static constraints = {
-		username blank: false, unique: true
+		email blank: false, unique: true
 		password blank: false
 	}
 
