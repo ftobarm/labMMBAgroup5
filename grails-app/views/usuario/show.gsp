@@ -31,6 +31,7 @@
 					
 				</li>
 				</g:if>
+
 			<!--
 				<g:if test="${usuarioInstance?.password}">
 				<li class="fieldcontain">
@@ -58,7 +59,7 @@
 
 				</li>
 				</g:if>
-			
+				-->
 				<g:if test="${usuarioInstance?.enabled}">
 				<li class="fieldcontain">
 					<span id="enabled-label" class="property-label"><g:message code="usuario.enabled.label" default="Enabled" /></span>
@@ -67,7 +68,7 @@
 					
 				</li>
 				</g:if>
-			
+				<!--
 				<g:if test="${usuarioInstance?.passwordExpired}">
 				<li class="fieldcontain">
 					<span id="passwordExpired-label" class="property-label"><g:message code="usuario.passwordExpired.label" default="Password Expired" /></span>

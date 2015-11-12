@@ -8,7 +8,7 @@ import grails.plugin.springsecurity.annotation.Secured
 
 
 @Transactional(readOnly = true)
-@Secured(["ROL_ADMIN","ROL_DIRECTOR"])
+@Secured(["ROLE_ADMIN","ROLE_DIRECTOR"])
 class RolController {
 
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]

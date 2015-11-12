@@ -11,15 +11,32 @@
 
 </div>
 
+<div class="fieldcontain ${hasErrors(bean: usuarioInstance, field: 'nombre', 'error')} required">
+	<label for="nombre">
+		<g:message code="usuario.nombre.label" default="nombre" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:textField name="nombre" required="" value="${usuarioInstance?.nombre}"/>
+
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: usuarioInstance, field: 'apellido', 'error')} required">
+	<label for="apellido">
+		<g:message code="usuario.apellido.label" default="apellido" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:textField name="apellido" required="" value="${usuarioInstance?.apellido}"/>
+
+</div>
+
 <div class="fieldcontain ${hasErrors(bean: usuarioInstance, field: 'password', 'error')} required">
 	<label for="password">
 		<g:message code="usuario.password.label" default="Password" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:textField name="password" required="" value="${usuarioInstance?.password}"/>
+	<g:passwordField name="password" required="" value="${usuarioInstance?.password}"/>
 
 </div>
-
 
 <div class="fieldcontain ${hasErrors(bean: usuarioInstance, field: 'accountExpired', 'error')} ">
 	<label for="accountExpired">
@@ -40,11 +57,12 @@
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: usuarioInstance, field: 'enabled', 'error')} ">
-	<label for="enabled">
+	<!--<label for="enabled">
 		<g:message code="usuario.enabled.label" default="Enabled" />
 
 	</label>
-	<g:checkBox name="enabled" value="${usuarioInstance?.enabled}" />
+	-->
+	<g:hiddenField name="enabled" value="${false}" />
 
 </div>
 

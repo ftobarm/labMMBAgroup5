@@ -29,13 +29,13 @@
 						<g:sortableColumn property="password" title="${message(code: 'usuario.password.label', default: 'Password')}" />
 					
 						<g:sortableColumn property="accountExpired" title="${message(code: 'usuario.accountExpired.label', default: 'Account Expired')}" />
-					
+
 						<g:sortableColumn property="accountLocked" title="${message(code: 'usuario.accountLocked.label', default: 'Account Locked')}" />
-					
-						<g:sortableColumn property="enabled" title="${message(code: 'usuario.enabled.label', default: 'Enabled')}" />
-					
+						-->
+						<g:sortableColumn property="enabled" title="${message(code: 'usuario.enabled.label', default: 'Activada')}" />
+						<!--
 						<g:sortableColumn property="passwordExpired" title="${message(code: 'usuario.passwordExpired.label', default: 'Password Expired')}" />
-					!-->
+						-->
 					</tr>
 				</thead>
 				<tbody>
@@ -49,9 +49,9 @@
 						<td><g:formatBoolean boolean="${usuarioInstance.accountExpired}" /></td>
 					
 						<td><g:formatBoolean boolean="${usuarioInstance.accountLocked}" /></td>
-					
+						-->
 						<td><g:formatBoolean boolean="${usuarioInstance.enabled}" /></td>
-					
+						<!--
 						<td><g:formatBoolean boolean="${usuarioInstance.passwordExpired}" /></td>
 					-->
 					</tr>
