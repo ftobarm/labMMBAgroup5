@@ -39,20 +39,13 @@
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: usuarioInstance, field: 'accountExpired', 'error')} ">
+	<!--
 	<label for="accountExpired">
 		<g:message code="usuario.accountExpired.label" default="Account Expired" />
 
 	</label>
-	<g:checkBox name="accountExpired" value="${usuarioInstance?.accountExpired}" />
-
-</div>
-
-<div class="fieldcontain ${hasErrors(bean: usuarioInstance, field: 'accountLocked', 'error')} ">
-	<label for="accountLocked">
-		<g:message code="usuario.accountLocked.label" default="Account Locked" />
-
-	</label>
-	<g:checkBox name="accountLocked" value="${usuarioInstance?.accountLocked}" />
+	-->
+	<g:hiddenField name="accountExpired" value="${false}" />
 
 </div>
 
@@ -72,6 +65,15 @@
 
 	</label>
 	<g:checkBox name="passwordExpired" value="${usuarioInstance?.passwordExpired}" />
+
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: usuarioInstance, field: 'accountLocked', 'error')} ">
+	<label for="accountLocked">
+		<g:message code="usuario.accountLocked.label" default="Account Locked" />
+
+	</label>
+	<g:checkBox name="accountLocked" value="${usuarioInstance?.accountLocked}" />
 
 </div>
 

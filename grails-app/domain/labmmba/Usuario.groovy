@@ -10,17 +10,18 @@ class Usuario implements Serializable {
 	String password
 	String nombre
 	String apellido
-	boolean enabled = true
+	boolean enabled = false
 	boolean accountLocked
 	boolean accountExpired
 	boolean passwordExpired
 
-	Usuario(String email, String password, String nombre,String apellido) {
+	Usuario(String email, String password, String nombre,String apellido, boolean enabled) {
 		this()
 		this.email = email
 		this.password = password
 		this.nombre = nombre
 		this.apellido = apellido
+		this.enabled = enabled
 	}
 
 	@Override

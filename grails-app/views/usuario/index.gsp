@@ -1,4 +1,3 @@
-
 <%@ page import="labmmba.Usuario" %>
 <!DOCTYPE html>
 <html>
@@ -11,8 +10,9 @@
 		<a href="#list-usuario" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
 		<div class="nav" role="navigation">
 			<ul>
-				<li><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>
-				<li><g:link class="create" action="create"><g:message code="default.new.label" args="[entityName]" /></g:link></li>
+				<!--<li><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>
+				<li><g:link class="create" action="create"><g:message code="default.new.label" args="[entityName]" /></g:link></li>-->
+				<li><a class="home" <g:link controller="logout">Salir</g:link></a></li>
 			</ul>
 		</div>
 		<div id="list-usuario" class="content scaffold-list" role="main">
@@ -32,7 +32,13 @@
 
 						<g:sortableColumn property="accountLocked" title="${message(code: 'usuario.accountLocked.label', default: 'Account Locked')}" />
 						-->
-						<g:sortableColumn property="enabled" title="${message(code: 'usuario.enabled.label', default: 'Activada')}" />
+
+						<g:sortableColumn property="nombre" title="${message(code: 'usuario.nombre.label', default: 'Nombre')}"/>
+
+						<g:sortableColumn property="apellido" title="${message(code: 'usuario.apellido.label', default: 'Apellido')}"/>
+
+						<g:sortableColumn property="enabled" title="${message(code: 'usuario.enabled.label', default: 'Estado')}"/>
+
 						<!--
 						<g:sortableColumn property="passwordExpired" title="${message(code: 'usuario.passwordExpired.label', default: 'Password Expired')}" />
 						-->
@@ -50,7 +56,16 @@
 					
 						<td><g:formatBoolean boolean="${usuarioInstance.accountLocked}" /></td>
 						-->
-						<td><g:formatBoolean boolean="${usuarioInstance.enabled}" /></td>
+						<td>${fieldValue(bean: usuarioInstance, field: "nombre")}</td>
+
+						<td>${fieldValue(bean: usuarioInstance, field: "apellido")}</td>
+
+						<g:if test="${usuarioInstance.enabled}">
+							<td>Habilitada (<g:link controller="usuario" action="modificarEstado" params="[usuarioId: usuarioInstance.id]">Deshabilitar</g:link>)</td>
+						</g:if>
+						<g:else>
+							<td>No habilitada (<g:link controller="usuario" action="modificarEstado" params="[usuarioId: usuarioInstance.id]">Habilitar</g:link>)</td>
+						</g:else>
 						<!--
 						<td><g:formatBoolean boolean="${usuarioInstance.passwordExpired}" /></td>
 					-->

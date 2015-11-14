@@ -7,7 +7,7 @@ import grails.transaction.Transactional
 import grails.plugin.springsecurity.annotation.Secured
 
 @Transactional(readOnly = true)
-@Secured(["ROLE_ADMIN", "ROLE_sDIRECTOR"])
+@Secured(["ROLE_ADMIN", "ROLE_DIRECTOR"])
 class UsuarioController {
 
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
@@ -92,6 +92,17 @@ class UsuarioController {
             }
             '*'{ render status: NO_CONTENT }
         }
+    }
+
+    @Transactional
+    def modificarEstado(long usuarioId){
+        def usuario = Usuario.findById(usuarioId)
+        if (usuario){
+            usuario.enabled = !usuario.enabled
+            usuario.save(flush: true)
+            redirect(controller: "usuario", action: "index", params: [max: 0] )
+        }
+
     }
 
     protected void notFound() {
