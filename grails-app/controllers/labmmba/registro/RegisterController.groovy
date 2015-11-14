@@ -30,7 +30,7 @@ class RegisterController extends grails.plugin.springsecurity.ui.RegisterControl
             flash.message = "Ya existe un usuario con este email"
             return redirect(controller: 'register', action: 'index')
         }
-        if(command.email    ==null || command.nombre==null || command.apellido==null || command.password==null  ){
+        if( command.email==null || command.nombre==null || command.apellido==null || command.password==null  ){
             flash.message = "Se deben llenar todos los campos"
             return redirect(controller: 'register', action: 'index')
         }
@@ -39,7 +39,7 @@ class RegisterController extends grails.plugin.springsecurity.ui.RegisterControl
                 command.password,
                 command.nombre,
                 command.apellido,
-                falsegf
+                false
         ).save()
 
         def rol = Rol.findByAuthority("ROLE_USUARIO")
