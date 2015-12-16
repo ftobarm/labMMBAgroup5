@@ -124,7 +124,7 @@ grails.plugin.springsecurity.authority.className = 'labmmba.Rol'
 grails.plugin.springsecurity.userLookup.usernamePropertyName = "email"
 grails.plugin.springsecurity.successHandler.alwaysUseDefault = true
 grails.plugin.springsecurity.logout.postOnly = false
-grails.plugin.springsecurity.successHandler.defaultTargetUrl = '/usuario/index'
+grails.plugin.springsecurity.successHandler.defaultTargetUrl = '/succesLogin/index'
 grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	'/':                ['permitAll'],
 	'/index':           ['permitAll'],

@@ -7,7 +7,7 @@ import grails.transaction.Transactional
 import grails.plugin.springsecurity.annotation.Secured
 
 @Transactional(readOnly = true)
-@Secured(["ROLE_ADMIN", "ROLE_DIRECTOR"])
+@Secured(["ROLE_USUARIO","ROLE_ADMIN", "ROLE_DIRECTOR"])
 class UsuarioController {
 
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
@@ -15,14 +15,6 @@ class UsuarioController {
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
         respond Usuario.list(params), model:[usuarioInstanceCount: Usuario.count()]
-    }
-
-    def show(Usuario usuarioInstance) {
-        respond usuarioInstance
-    }
-
-    def create() {
-        respond new Usuario(params)
     }
 
     @Transactional
@@ -100,7 +92,7 @@ class UsuarioController {
         if (usuario){
             usuario.enabled = !usuario.enabled
             usuario.save(flush: true)
-            redirect(controller: "usuario", action: "index", params: [max: 0] )
+            redirect(controller: "usuario", action: "admin", params: [max: 0] )
         }
 
     }
@@ -113,5 +105,9 @@ class UsuarioController {
             }
             '*'{ render status: NOT_FOUND }
         }
+    }
+    @Secured(["ROLE_ADMIN"])
+    def admin() {
+        respond Usuario.list(params)
     }
 }

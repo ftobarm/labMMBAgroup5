@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/labMMBA.iml" filepath="$PROJECT_DIR$/labMMBA.iml" />
-      <module fileurl="file://$PROJECT_DIR$/labMMBA-grailsPlugins.iml" filepath="$PROJECT_DIR$/labMMBA-grailsPlugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/labMMBAgroup5.iml" filepath="$PROJECT_DIR$/labMMBAgroup5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/labMMBAgroup5-grailsPlugins.iml" filepath="$PROJECT_DIR$/labMMBAgroup5-grailsPlugins.iml" />
     </modules>
   </component>
 </project>

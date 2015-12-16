@@ -13,19 +13,6 @@ class RolController {
 
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
-    def index(Integer max) {
-        params.max = Math.min(max ?: 10, 100)
-        respond Rol.list(params), model:[rolInstanceCount: Rol.count()]
-    }
-
-    def show(Rol rolInstance) {
-        respond rolInstance
-    }
-
-    def create() {
-        respond new Rol(params)
-    }
-
     @Transactional
     def save(Rol rolInstance) {
         if (rolInstance == null) {
@@ -47,10 +34,6 @@ class RolController {
             }
             '*' { respond rolInstance, [status: CREATED] }
         }
-    }
-
-    def edit(Rol rolInstance) {
-        respond rolInstance
     }
 
     @Transactional
