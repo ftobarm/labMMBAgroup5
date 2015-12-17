@@ -1,25 +1,25 @@
 package labmmba.registro
 
-import grails.plugin.springsecurity.SpringSecurityUtils
-import grails.plugin.springsecurity.authentication.dao.NullSaltSource
-import grails.plugin.springsecurity.ui.RegistrationCode
-import grails.transaction.Transactional
 import grails.plugin.springsecurity.annotation.Secured
 import labmmba.Rol
 import labmmba.Usuario
 import labmmba.UsuarioRol
+import labmmba.Charge
+import labmmba.InvestigationArea
 
 @Secured(["IS_AUTHENTICATED_ANONYMOUSLY"])
 
 class RegisterController extends grails.plugin.springsecurity.ui.RegisterController {
     @Override
+    //contralador generado por plugin
     def index() {
         def copy = [:] + (flash.chainedParams ?: [:])
         copy.remove 'controller'
         copy.remove 'action'
         [command: new Command(copy)]
     }
-
+    //controlador para registar un nuevo usuario, aqui se hacen algunas verificaciones
+    //de los datos de entrada
     def register(Command command) {
         if (!checkPasswordsEqual(command.password, command.password2)) {
             flash.message = "Las contraseñas no coinciden"
@@ -39,7 +39,9 @@ class RegisterController extends grails.plugin.springsecurity.ui.RegisterControl
                 command.password,
                 command.nombre,
                 command.apellido,
-                false
+                false,
+                InvestigationArea.findByName("Empity"),
+                Charge.findByName("Empity")
         ).save()
 
         def rol = Rol.findByAuthority("ROLE_USUARIO")
@@ -56,6 +58,7 @@ class RegisterController extends grails.plugin.springsecurity.ui.RegisterControl
         return p1 == p2
     }
 }
+//clase auxiliar para recibir datos de la vista
 class Command {
 
     String email

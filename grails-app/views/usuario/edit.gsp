@@ -11,6 +11,8 @@
 		<div class="nav" role="navigation">
 			<ul>
 				<li><a class="home" <g:link controller="logout">Salir</g:link></a></li>
+				<li><a <g:link controller="study" action="index" id="${usuarioInstance.id}">Agregar estudio</g:link></a></li>
+
 			</ul>
 		</div>
 		<div id="edit-usuario" class="content scaffold-edit" role="main">

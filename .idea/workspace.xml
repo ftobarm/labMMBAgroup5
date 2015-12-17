@@ -1,55 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/grails-app/views/usuario/_form.gsp" line="40" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3cb95d07-8e43-4950-8626-be24d2ccca41" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/domain/labmmba/Area_investigacion.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/domain/labmmba/Cargo.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/domain/labmmba/Comentario.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/domain/labmmba/Congreso.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/domain/labmmba/Estudio.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/domain/labmmba/Keyword.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/domain/labmmba/Keyword_publicacion_revista.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/domain/labmmba/Multimedia.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/domain/labmmba/Proyecto.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/domain/labmmba/Publicacion_libro.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/domain/labmmba/Publicacion_revista.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/domain/labmmba/Tesis.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/domain/labmmba/Usuario_congreso.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/domain/labmmba/Usuario_proyecto.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/domain/labmmba/Usuario_publicacion_libro.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/domain/labmmba/Usuario_publicacion_revista.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/domain/labmmba/Usuario_tesis.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/views/rol/_form.gsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/views/rol/create.gsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/views/rol/edit.gsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/views/rol/index.gsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/views/rol/show.gsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/views/usuario/create.gsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/views/usuario/index.gsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/views/usuario/show.gsp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Config.class" afterPath="$PROJECT_DIR$/target/classes/Config.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BootStrap$_closure1.class" afterPath="$PROJECT_DIR$/target/classes/BootStrap$_closure1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BootStrap$_closure2.class" afterPath="$PROJECT_DIR$/target/classes/BootStrap$_closure2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/labmmba/InicioController.class" afterPath="$PROJECT_DIR$/target/classes/labmmba/InicioController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/labmmba/RolController.class" afterPath="$PROJECT_DIR$/target/classes/labmmba/RolController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/labmmba/Usuario$__clinit__closure1.class" afterPath="$PROJECT_DIR$/target/classes/labmmba/Usuario$__clinit__closure1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/labmmba/Usuario$__clinit__closure2.class" afterPath="$PROJECT_DIR$/target/classes/labmmba/Usuario$__clinit__closure2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/labmmba/Usuario.class" afterPath="$PROJECT_DIR$/target/classes/labmmba/Usuario.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__delete_closure11$_closure18.class" afterPath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__delete_closure11$_closure18.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__delete_closure11$_closure19.class" afterPath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__delete_closure11$_closure19.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__delete_closure11.class" afterPath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__delete_closure11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__save_closure9$_closure14.class" afterPath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__save_closure9$_closure14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__save_closure9$_closure15.class" afterPath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__save_closure9$_closure15.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__save_closure9.class" afterPath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__save_closure9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__update_closure10$_closure16.class" afterPath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__update_closure10$_closure16.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__update_closure10$_closure17.class" afterPath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__update_closure10$_closure17.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__update_closure10.class" afterPath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__update_closure10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__delete_closure12$_closure19.class" afterPath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__delete_closure12$_closure19.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__delete_closure12$_closure20.class" afterPath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__delete_closure12$_closure20.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__delete_closure12.class" afterPath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__delete_closure12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__save_closure10$_closure15.class" afterPath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__save_closure10$_closure15.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__save_closure10$_closure16.class" afterPath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__save_closure10$_closure16.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__save_closure10.class" afterPath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__save_closure10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__update_closure11$_closure17.class" afterPath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__update_closure11$_closure17.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__update_closure11$_closure18.class" afterPath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__update_closure11$_closure18.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__update_closure11.class" afterPath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$__tt__update_closure11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$_notFound_closure8$_closure13.class" afterPath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$_notFound_closure8$_closure13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$_notFound_closure8.class" afterPath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController$_notFound_closure8.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController.class" afterPath="$PROJECT_DIR$/target/classes/labmmba/UsuarioController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/labmmba/Usuario_publicacion_revista.class" afterPath="$PROJECT_DIR$/target/classes/labmmba/Usuario_publicacion_revista.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/labmmba/registro/Command$__clinit__closure1.class" afterPath="$PROJECT_DIR$/target/classes/labmmba/registro/Command$__clinit__closure1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/labmmba/registro/RegisterController.class" afterPath="$PROJECT_DIR$/target/classes/labmmba/registro/RegisterController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/labmmba/InicioController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/labmmba/InicioController.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/labmmba/RolController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/labmmba/RolController.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/labmmba/UsuarioController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/labmmba/UsuarioController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/labmmba/registro/RegisterController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/labmmba/registro/RegisterController.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/labmmba/Usuario.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/labmmba/Usuario.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/inicio/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/inicio/index.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/usuario/_form.gsp" afterPath="$PROJECT_DIR$/grails-app/views/usuario/_form.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/usuario/edit.gsp" afterPath="$PROJECT_DIR$/grails-app/views/usuario/edit.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
     </list>
@@ -78,54 +64,12 @@
     <favorites_list name="labMMBAgroup5" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="UsuarioController.groovy" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="UsuarioController.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/labmmba/UsuarioController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.826087">
-              <caret line="90" column="49" selection-start-line="90" selection-start-column="49" selection-end-line="90" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Config.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="126" column="82" selection-start-line="126" selection-start-column="82" selection-end-line="126" selection-end-column="82" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SuccesLoginController.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/labmmba/SuccesLoginController.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.65217394">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding>
-                <element signature="e#17#72#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.gsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/usuario/admin.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.5106382">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="13" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.gsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/usuario/edit.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.40394974">
+              <caret line="17" column="142" selection-start-line="17" selection-start-column="134" selection-end-line="17" selection-end-column="142" />
               <folding />
             </state>
           </provider>
@@ -310,13 +254,28 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/grails-app/domain/labmmba/Usuario.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/labmmba/RolController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/labmmba/UsuarioController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/usuario/admin.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/labmmba/SuccesLoginController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/labmmba/charge.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/labmmba/InvestigationArea.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/usuario/user.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/inicio/index.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/domain/labmmba/Studies.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/labmmba/Studie.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/labmmba/Study.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/usuario/edit.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/study/index.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/usuario/_form.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/usuario/userView.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/labmmba/UsuarioController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/labmmba/registro/RegisterController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/labmmba/InicioController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/labmmba/RolController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/labmmba/StudyController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/labmmba/SuccesLoginController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/labmmba/Usuario.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/labmmba/Usuario_publicacion_revista.groovy" />
       </list>
     </option>
   </component>
@@ -330,6 +289,25 @@
     <option name="y" value="27" />
     <option name="width" value="1368" />
     <option name="height" value="742" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CheckTagEmptyBody</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -434,6 +412,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labMMBAgroup5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labMMBAgroup5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="register" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labMMBAgroup5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labMMBAgroup5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="inicio" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -510,6 +532,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labmmba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="registro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RegisterController.groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labMMBAgroup5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labMMBAgroup5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="conf" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -524,6 +576,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="labmmba" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/grails-app/views/usuario" />
     </key>
@@ -920,6 +975,11 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -955,81 +1015,96 @@
       <created>1450237597480</created>
       <option name="number" value="Default" />
       <updated>1450237597480</updated>
-      <workItem from="1450237599311" duration="2966000" />
+      <workItem from="1450237599311" duration="19258000" />
+      <workItem from="1450281465948" duration="5199000" />
+      <workItem from="1450303951527" duration="7945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2966000" />
+    <option name="totallyTimeSpent" value="32402000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="27" width="1368" height="742" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22432025" sideWeight="0.49019608" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.50980395" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19939578" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23848684" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23848684" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19939578" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22432025" sideWeight="0.49019608" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.50980395" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/labmmba/UsuarioRol.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4423077">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/labmmba/Rol.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79545456">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/labmmba/RolController.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/labmmba/Study.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1037,63 +1112,468 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/labmmba/Usuario.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/usuario/userView.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9431818">
-          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="68" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="68" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/labmmba/StudyController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#17#71#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-security-core-2.0-RC5/grails-app/services/grails/plugin/springsecurity/SpringSecurityService.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/labmmba/Usuario.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.92105263">
-          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/labmmba/registro/RegisterController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="e#26#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/study/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/labmmba/UsuarioController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.826087">
-          <caret line="90" column="49" selection-start-line="90" selection-start-column="49" selection-end-line="90" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="40" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="40" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-security-core-2.0-RC5/grails-app/services/grails/plugin/springsecurity/SpringSecurityService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.92105263">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/labmmba/UsuarioRol.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3567073">
+          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/grails/dist/grails-plugin-rest-2.5.2-sources.jar!/org/grails/plugins/web/rest/api/ControllersRestApi.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33157894">
+          <caret line="105" column="8" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/grails/dist/grails-plugin-controllers-2.5.2-sources.jar!/org/codehaus/groovy/grails/plugins/web/api/ControllersApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33251232">
+          <caret line="476" column="33" selection-start-line="476" selection-start-column="30" selection-end-line="476" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/grails/lib/org.springframework/spring-web/jars/spring-web-4.1.6.RELEASE-sources.jar!/org/springframework/http/HttpStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/grails/dist/grails-plugin-gsp-2.5.2-sources.jar!/org/codehaus/groovy/grails/plugins/web/taglib/ValidationTagLib.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33251232">
+          <caret line="471" column="69" selection-start-line="471" selection-start-column="65" selection-end-line="471" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/grails/dist/grails-plugin-mimetypes-2.5.2-sources.jar!/org/codehaus/groovy/grails/plugins/web/api/RequestMimeTypesApi.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.827586">
+          <caret line="93" column="27" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/grails/dist/grails-web-common-2.5.2-sources.jar!/org/codehaus/groovy/grails/plugins/web/api/CommonWebApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33251232">
+          <caret line="29" column="51" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="51" />
+          <folding>
+            <element signature="e#4541#4542#0" expanded="false" />
+            <element signature="e#4610#4611#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/grails/dist/grails-plugin-gsp-2.5.2-sources.jar!/org/codehaus/groovy/grails/plugins/web/taglib/FormTagLib.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3678161">
+          <caret line="369" column="0" selection-start-line="369" selection-start-column="0" selection-end-line="369" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="126" column="82" selection-start-line="126" selection-start-column="82" selection-end-line="126" selection-end-column="82" />
+        <state vertical-scroll-proportion="0.9310345">
+          <caret line="131" column="38" selection-start-line="131" selection-start-column="38" selection-end-line="131" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/labmmba/SuccesLoginController.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65217394">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#17#72#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/usuario/admin.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.5106382">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="13" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.9437148">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9460432">
+          <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/study/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14071295">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/register/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36585367">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/usuario/userView.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/inicio/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/usuario/_form.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5531917">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/usuario/edit.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.891182">
+          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/labmmba/registro/RegisterController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.043478">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="e#26#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/labmmba/StudyController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.173913">
+          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+          <folding>
+            <element signature="e#17#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/labmmba/SuccesLoginController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21543986">
+          <caret line="9" column="78" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/labmmba/InicioController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13464992">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/labmmba/RolController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6499102">
+          <caret line="79" column="37" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/labmmba/Usuario_tesis.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14204545">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/labmmba/Usuario.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/labmmba/Comentario.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.056818184">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/labmmba/Charge.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4423077">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/labmmba/Congreso.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5769231">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/labmmba/InvestigationArea.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5769231">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/labmmba/Keyword.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5769231">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/labmmba/Keyword_publicacion_revista.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5769231">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/labmmba/Multimedia.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5769231">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/labmmba/Proyecto.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5769231">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/labmmba/Publicacion_libro.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5769231">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/labmmba/Publicacion_revista.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5769231">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/labmmba/Rol.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/labmmba/Study.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.1730769">
+          <caret line="11" column="84" selection-start-line="11" selection-start-column="84" selection-end-line="11" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/labmmba/Tesis.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.056818184">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/labmmba/Usuario_congreso.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.056818184">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/labmmba/Usuario_proyecto.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.056818184">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/labmmba/Usuario_publicacion_libro.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.056818184">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/labmmba/Usuario_publicacion_revista.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19886364">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/labmmba/UsuarioController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40394974">
+          <caret line="17" column="142" selection-start-line="17" selection-start-column="134" selection-end-line="17" selection-end-column="142" />
           <folding />
         </state>
       </provider>

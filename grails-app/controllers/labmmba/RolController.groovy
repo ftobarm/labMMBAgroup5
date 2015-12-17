@@ -12,7 +12,7 @@ import grails.plugin.springsecurity.annotation.Secured
 class RolController {
 
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
-
+    //contralador generado por plugin
     @Transactional
     def save(Rol rolInstance) {
         if (rolInstance == null) {
@@ -35,7 +35,7 @@ class RolController {
             '*' { respond rolInstance, [status: CREATED] }
         }
     }
-
+    //contralador generado por plugin
     @Transactional
     def update(Rol rolInstance) {
         if (rolInstance == null) {
@@ -58,7 +58,7 @@ class RolController {
             '*'{ respond rolInstance, [status: OK] }
         }
     }
-
+    //contralador generado por plugin
     @Transactional
     def delete(Rol rolInstance) {
 
@@ -77,7 +77,7 @@ class RolController {
             '*'{ render status: NO_CONTENT }
         }
     }
-
+    //contralador generado por plugin
     protected void notFound() {
         request.withFormat {
             form multipartForm {

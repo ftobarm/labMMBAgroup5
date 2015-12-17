@@ -1,4 +1,4 @@
-<%@ page import="labmmba.Usuario" %>
+<%@ page import="labmmba.Charge; labmmba.InvestigationArea; labmmba.Usuario" %>
 
 
 
@@ -29,51 +29,50 @@
 
 </div>
 
-<div class="fieldcontain ${hasErrors(bean: usuarioInstance, field: 'password', 'error')} required">
-	<label for="password">
-		<g:message code="usuario.password.label" default="Password" />
+<div class="fieldcontain ${hasErrors(bean: usuarioInstance, field: 'area', 'error')} required">
+	<label for="area">
+		<g:message code="usuario.apellido.label" default="area" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:passwordField name="password" required="" value="${usuarioInstance?.password}"/>
+	<g:select name="area"
+			  from="${InvestigationArea.list()}"
+			  value="${usuarioInstance?.area}"
+			  optionValue="name"
+			  noSelection='["${usuarioInstance.area.id}":"${usuarioInstance.area.name}(actual)"]'
+			  optionKey="id"
+	/>
 
+<div class="fieldcontain ${hasErrors(bean: usuarioInstance, field: 'charge', 'error')} required">
+	<label for="charge">
+		<g:message code="usuario.apellido.label" default="charge" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:select name="charge"
+			  from="${labmmba.Charge.list()}"
+			  value="${usuarioInstance?.charge}"
+			  optionValue="name"
+			  noSelection='["${usuarioInstance.charge.id}" :"${usuarioInstance.charge.name}(actual)"]'
+			  optionKey="id"
+	/>
+</div>
+<div class="fieldcontain ${hasErrors(bean: usuarioInstance, field: 'password', 'error')} required">
+	<g:hiddenField name="password" value="${usuarioInstance?.password}" />
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: usuarioInstance, field: 'accountExpired', 'error')} ">
-	<!--
-	<label for="accountExpired">
-		<g:message code="usuario.accountExpired.label" default="Account Expired" />
 
-	</label>
-	-->
 	<g:hiddenField name="accountExpired" value="${false}" />
 
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: usuarioInstance, field: 'enabled', 'error')} ">
-	<!--<label for="enabled">
-		<g:message code="usuario.enabled.label" default="Enabled" />
-
-	</label>
-	-->
-	<g:hiddenField name="enabled" value="${false}" />
-
+	<g:hiddenField name="enabled" value="${true}" />
 </div>
-
 <div class="fieldcontain ${hasErrors(bean: usuarioInstance, field: 'passwordExpired', 'error')} ">
-	<label for="passwordExpired">
-		<g:message code="usuario.passwordExpired.label" default="Password Expired" />
-
-	</label>
-	<g:checkBox name="passwordExpired" value="${usuarioInstance?.passwordExpired}" />
-
+	<g:hiddenField name='passwordExpired' value="${false}" />
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: usuarioInstance, field: 'accountLocked', 'error')} ">
-	<label for="accountLocked">
-		<g:message code="usuario.accountLocked.label" default="Account Locked" />
-
-	</label>
-	<g:checkBox name="accountLocked" value="${usuarioInstance?.accountLocked}" />
+	<g:hiddenField name='accountLocked' value="${false}" />
 
 </div>
-

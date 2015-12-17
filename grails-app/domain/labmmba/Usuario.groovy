@@ -1,7 +1,18 @@
 package labmmba
 
 class Usuario implements Serializable {
-
+	static hasMany = [
+	        study: Study,
+			tesis: Usuario_tesis,
+			book: Usuario_publicacion_libro,
+			proyect: Usuario_proyecto,
+			congress: Usuario_congreso,
+			multi: Multimedia
+	]
+	static belongsTo = [
+	        area: InvestigationArea,
+			charge: Charge
+	]
 	private static final long serialVersionUID = 1
 
 	transient springSecurityService
@@ -15,13 +26,15 @@ class Usuario implements Serializable {
 	boolean accountExpired
 	boolean passwordExpired
 
-	Usuario(String email, String password, String nombre,String apellido, boolean enabled) {
+	Usuario(String email, String password, String nombre, String apellido, boolean enabled, InvestigationArea area, Charge charge) {
 		this()
 		this.email = email
 		this.password = password
 		this.nombre = nombre
 		this.apellido = apellido
 		this.enabled = enabled
+		this.area = area
+		this.charge = charge
 	}
 
 	@Override
