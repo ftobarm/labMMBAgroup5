@@ -1,4 +1,5 @@
 import labmmba.Charge
+import labmmba.Study
 import labmmba.UsuarioRol
 import labmmba.Rol
 import labmmba.Usuario
@@ -9,11 +10,11 @@ class BootStrap {
 
     def init = { servletContext ->
         University.findOrSaveByName("UTFSM")
-        University.findOrSaveByName("UFRO")
-        Country.findOrSaveByName("Chile")
+        def university=University.findOrSaveByName("UFRO")
+        def country=Country.findOrSaveByName("Chile")
         Country.findOrSaveByName("EEUU")
         InvestigationArea.findOrSaveByName("Biotecnología vegetal")
-        InvestigationArea.findOrSaveByName("Compuestos bioactivo")
+        def area=InvestigationArea.findOrSaveByName("Compuestos bioactivo")
         InvestigationArea.findOrSaveByName("Microbiología")
         InvestigationArea.findOrSaveByName("Biotecnología Ambiental")
         def adminCharge=Charge.findOrSaveByName("Admin")
@@ -36,7 +37,16 @@ class BootStrap {
         }
         if (!Usuario.findByEmail("a@a")) {
             def rolUser=new Rol("ROLE_USUARIO").save(flush: true)
-            def user1 = new Usuario("a@a", "aaa", "test", "user1", true, pregrade).save()
+            def user1 = new Usuario("a@a", "aaa", "test", "user1", true, pregrade)
+            user1.area=area
+            user1.save()
+            def study = new Study()
+            study.country=country
+            study.grade="pregrado"
+            study.name="ing en algo"
+            study.university=university
+            study.user=user1
+            study.save()
             UsuarioRol.create user1, rolUser,true
 
         }

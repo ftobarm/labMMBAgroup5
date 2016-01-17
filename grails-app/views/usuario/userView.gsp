@@ -9,7 +9,9 @@
 <div class="nav" role="navigation">
     <h1>Bienvenido ${usuarioInstance.nombre} ${usuarioInstance.apellido}</h1>
     <ul><g:link controller="usuario" action="edit" id="${usuarioInstance.id}">editar</g:link></ul>
-    <ul><g:link controller="Agregar tesis" action="index" id="${usuarioInstance.id}">tesis</g:link></ul>
+    <ul><g:link controller="tesis" action="index" id="${usuarioInstance.id}">Tesis</g:link></ul>
+    <ul><g:link controller="proyect" action="index" id="${usuarioInstance.id}">Proyectos</g:link></ul>
+
     <ul><g:link controller="logout">Salir</g:link></ul>
 
 </br>

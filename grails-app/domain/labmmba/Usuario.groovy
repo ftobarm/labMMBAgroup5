@@ -3,7 +3,8 @@ package labmmba
 class Usuario implements Serializable {
 	static hasMany = [
 	        study: Study,
-			tesis: UserTesis
+			tesis: UserTesis,
+			proyect: Proyect
 	]
 	static belongsTo = [
 	        area: InvestigationArea,

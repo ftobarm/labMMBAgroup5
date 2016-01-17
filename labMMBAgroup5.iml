@@ -99,5 +99,6 @@
     </orderEntry>
     <orderEntry type="library" name="grails-2.5.2" level="application" />
     <orderEntry type="module" module-name="labMMBAgroup5-grailsPlugins" />
+    <orderEntry type="library" name="grails-2.5.3" level="application" />
   </component>
 </module>

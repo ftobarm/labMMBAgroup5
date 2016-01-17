@@ -7,6 +7,9 @@ import labmmba.Usuario
 class TesisController {
     //controlador de la pag principal
     def index(Usuario usuarioInstance) {
+        [usuarioInstance: usuarioInstance, tesis:UserTesis.findAllByUser(usuarioInstance)]
+    }
+    def register(Usuario usuarioInstance) {
         respond usuarioInstance
     }
     //cotrolador que guarda el estudio de un usuario.
