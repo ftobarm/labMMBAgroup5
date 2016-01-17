@@ -3,15 +3,11 @@ package labmmba
 class Usuario implements Serializable {
 	static hasMany = [
 	        study: Study,
-			tesis: Usuario_tesis,
-			book: Usuario_publicacion_libro,
-			proyect: Usuario_proyecto,
-			congress: Usuario_congreso,
-			multi: Multimedia
+			tesis: UserTesis
 	]
 	static belongsTo = [
 	        area: InvestigationArea,
-			charge: Charge
+			charge: Charge,
 	]
 	private static final long serialVersionUID = 1
 
@@ -26,14 +22,13 @@ class Usuario implements Serializable {
 	boolean accountExpired
 	boolean passwordExpired
 
-	Usuario(String email, String password, String nombre, String apellido, boolean enabled, InvestigationArea area, Charge charge) {
+	Usuario(String email, String password, String nombre, String apellido, boolean enabled, Charge charge) {
 		this()
 		this.email = email
 		this.password = password
 		this.nombre = nombre
 		this.apellido = apellido
 		this.enabled = enabled
-		this.area = area
 		this.charge = charge
 	}
 
@@ -75,6 +70,9 @@ class Usuario implements Serializable {
 	static constraints = {
 		email blank: false, unique: true
 		password blank: false
+		tesis nullable: true
+		area nullable: true
+		charge nullable: true
 	}
 
 	static mapping = {

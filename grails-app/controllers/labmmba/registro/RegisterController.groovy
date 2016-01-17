@@ -40,8 +40,7 @@ class RegisterController extends grails.plugin.springsecurity.ui.RegisterControl
                 command.nombre,
                 command.apellido,
                 false,
-                InvestigationArea.findByName("Empity"),
-                Charge.findByName("Empity")
+                null
         ).save()
 
         def rol = Rol.findByAuthority("ROLE_USUARIO")

@@ -15,7 +15,7 @@ class UsuarioController {
     //controlador del a vista usuario retorna el usuario logeaado y una lista con sus estudios ademas lo envia
     //la vista edit para rellene los datos obligatorios si no lo ha hecho.
     def userView(Usuario usuarioInstance){
-        if(usuarioInstance.area.name=="Empity" || usuarioInstance.charge.name=="Empity" || Study.countByUserAndGrade(usuarioInstance,"pregrade")==0){
+        if(usuarioInstance.area==null || usuarioInstance.charge==null || Study.countByUserAndGrade(usuarioInstance,"pregrado")==0){
             return  redirect(controller: 'usuario', action:"edit", params:[id:usuarioInstance.id])
         }
         [usuarioInstance: usuarioInstance, studies:Study.findAllByUser(usuarioInstance)]

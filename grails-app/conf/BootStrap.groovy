@@ -3,38 +3,43 @@ import labmmba.UsuarioRol
 import labmmba.Rol
 import labmmba.Usuario
 import labmmba.InvestigationArea
-
+import labmmba.University
+import labmmba.Country
 class BootStrap {
 
     def init = { servletContext ->
-        def area=InvestigationArea.findOrSaveByName("Empity")
+        University.findOrSaveByName("UTFSM")
+        University.findOrSaveByName("UFRO")
+        Country.findOrSaveByName("Chile")
+        Country.findOrSaveByName("EEUU")
         InvestigationArea.findOrSaveByName("Biotecnología vegetal")
         InvestigationArea.findOrSaveByName("Compuestos bioactivo")
         InvestigationArea.findOrSaveByName("Microbiología")
         InvestigationArea.findOrSaveByName("Biotecnología Ambiental")
         def adminCharge=Charge.findOrSaveByName("Admin")
         def directorCharge=Charge.findOrSaveByName("Jefe de Laboratorio")
-        Charge.findOrSaveByName("Empity")
-        Charge.findOrSaveByName("Estudiante de pregrado")
+        def pregrade=Charge.findOrSaveByName("Estudiante de pregrado")
         Charge.findOrSaveByName("Estudiante de Postgrado")
         Charge.findOrSaveByName("Trabajador")
         Charge.findOrSaveByName("Colaborador")
         if (!Usuario.findByEmail("admin")) {
             def rolAdmin = new Rol("ROLE_ADMIN").save()
-            def admin = new Usuario("admin", "admin", "pepe", "ardiila", true, area, adminCharge).save()
+            def admin = new Usuario("admin", "admin", "pepe", "ardiila", true, adminCharge).save()
             UsuarioRol.create admin, rolAdmin, true
         }
 
         if (!Usuario.findByEmail("director@todopoderoso.com")) {
             def rolDirector = new Rol("ROLE_DIRECTOR").save()
-            def director = new Usuario("director@todopoderoso.com", "muysegura", "juan", "perez", true, area, directorCharge).save()
+            def director = new Usuario("director@todopoderoso.com", "muysegura", "juan", "perez", true, directorCharge).save()
             UsuarioRol.create director, rolDirector,true
 
         }
-        if(!Rol.findByAuthority("ROLE_USUARIO")){
-            new Rol("ROLE_USUARIO").save(flush: true)
-        }
+        if (!Usuario.findByEmail("a@a")) {
+            def rolUser=new Rol("ROLE_USUARIO").save(flush: true)
+            def user1 = new Usuario("a@a", "aaa", "test", "user1", true, pregrade).save()
+            UsuarioRol.create user1, rolUser,true
 
+        }
 
     }
 
