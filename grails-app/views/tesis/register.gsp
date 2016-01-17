@@ -15,13 +15,13 @@
             </br>
             *Tutor: <select name="tutor">
                 <g:each in="${labmmba.Usuario.getAll()}" var="tutor">
-                    <option value="${tutor.id}" >${tutor.nombre}$ ${tutor.apellido}$  </option>
+                    <option value="${tutor.id}" >${tutor.nombre} ${tutor.apellido}  </option>
                 </g:each>
             </select>
             </br>
             Cotutor <select name="cotutor">
                 <g:each in="${labmmba.Usuario.getAll()}" var="cotutor">
-                    <option value="${cotutor.id}" >${cotutor.nombre}$ ${cotutor.apellido}$  </option>
+                    <option value="${cotutor.id}" >${cotutor.nombre} ${cotutor.apellido}  </option>
                  </g:each>
                 <option selected="Sin Cotutor" >Sin Cotutor  </option>
 

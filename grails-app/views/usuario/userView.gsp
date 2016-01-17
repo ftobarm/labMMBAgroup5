@@ -11,6 +11,8 @@
     <ul><g:link controller="usuario" action="edit" id="${usuarioInstance.id}">editar</g:link></ul>
     <ul><g:link controller="tesis" action="index" id="${usuarioInstance.id}">Tesis</g:link></ul>
     <ul><g:link controller="proyect" action="index" id="${usuarioInstance.id}">Proyectos</g:link></ul>
+    <ul><g:link controller="book" action="index" id="${usuarioInstance.id}">Publicaciones</g:link></ul>
+
 
     <ul><g:link controller="logout">Salir</g:link></ul>
 

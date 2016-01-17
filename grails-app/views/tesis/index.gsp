@@ -16,7 +16,7 @@
 <g:each in="${tesis}" var="tesis1">
     <strong>Nombre de Tesis:</strong>  ${tesis1.tesis.name}
     <strong>Universidad:</strong> ${tesis1.tesis.university.name} de ${tesis1.tesis.country.name}
-    <strong>Cargo:</strong>${tesis1.charge} <strong>Url:</strong>${tesis1.tesis.url}
+    <strong>Cargo:</strong>${tesis1.charge} <strong>Url:</strong>$tesis1.tesis.url}
     </br>
 </g:each>
 </body>
