@@ -13,6 +13,7 @@
     <ul><g:link controller="project" action="index" id="${usuarioInstance.id}">Proyectos</g:link></ul>
     <ul><g:link controller="book" action="index" id="${usuarioInstance.id}">Publicaciones</g:link></ul>
     <ul><g:link controller="congress" action="index" id="${usuarioInstance.id}">Asistencias a congresos</g:link></ul>
+    <ul><g:link controller="multimedia" action="index" id="${usuarioInstance.id}">Archivos Multimedia</g:link></ul>
     <ul><g:link controller="logout">Salir</g:link></ul>
 
 </br>

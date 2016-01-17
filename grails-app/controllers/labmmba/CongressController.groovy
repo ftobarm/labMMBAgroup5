@@ -25,7 +25,7 @@ class CongressController {
         congress.save()
         def f = request.getFile("filecsv")
         def webrootDir = servletContext.getRealPath("/") //app directory
-        File fileDest = new File(webrootDir,"/tesis/${f.originalFilename}")
+        File fileDest = new File(webrootDir,"/congressFiles/${f.originalFilename}")
         userCongress.url=fileDest.getAbsolutePath()
         userCongress.paper=params.paper
         userCongress.congress=congress
