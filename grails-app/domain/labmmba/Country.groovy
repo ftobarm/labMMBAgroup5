@@ -3,7 +3,8 @@ package labmmba
 class Country {
     static hasMany = [
             tesis: Tesis,
-            study: Study
+            study: Study,
+            congress:Congress
     ]
     String name
     static constraints = {

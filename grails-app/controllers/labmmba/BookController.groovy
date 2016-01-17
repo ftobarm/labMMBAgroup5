@@ -25,6 +25,7 @@ class BookController {
         File fileDest = new File(webrootDir,"/publication/${f.originalFilename}")
         book.url=fileDest.getAbsolutePath()
         book.save()
+        UserBook.findOrSaveByBookAndUser(book,usuarioInstance)
         def int i
         for (i =1; i <=params.int("autors"); i++) {
             UserBook.findOrSaveByBookAndUser(book,Usuario.findById(params.int("autor"+i)))

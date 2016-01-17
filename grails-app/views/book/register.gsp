@@ -27,7 +27,7 @@
         <input type="submit" class="upload" value="upload"/>
         </span>
     </g:form>
-    <button><g:link controller="proyect" action="index" id="${usuarioInstance.id}">volver</g:link></button>
+    <button><g:link controller="project" action="index" id="${usuarioInstance.id}">volver</g:link></button>
 </div>
 
 <SCRIPT language="javascript">

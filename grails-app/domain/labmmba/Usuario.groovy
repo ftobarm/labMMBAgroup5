@@ -4,7 +4,7 @@ class Usuario implements Serializable {
 	static hasMany = [
 	        study: Study,
 			tesis: UserTesis,
-			proyect: Proyect,
+			project: Project,
 			book: UserBook
 	]
 	static belongsTo = [
