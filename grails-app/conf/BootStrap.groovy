@@ -1,4 +1,5 @@
 import labmmba.Charge
+import labmmba.Keyword
 import labmmba.Study
 import labmmba.UsuarioRol
 import labmmba.Rol
@@ -10,6 +11,7 @@ class BootStrap {
 
     def init = { servletContext ->
         University.findOrSaveByName("UTFSM")
+        Keyword.findOrSaveByName("holi")
         def university=University.findOrSaveByName("UFRO")
         def country=Country.findOrSaveByName("Chile")
         Country.findOrSaveByName("EEUU")

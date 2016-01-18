@@ -6,7 +6,8 @@ class Usuario implements Serializable {
 			tesis: UserTesis,
 			project: Project,
 			book: UserBook,
-			multimedia:Multimedia
+			multimedia:Multimedia,
+			magazine: Magazine
 	]
 	static belongsTo = [
 	        area: InvestigationArea,
